@@ -1,0 +1,17 @@
+{
+  "name": "snake-app",
+  "version": "1.0.0",
+  "description": "Snake Game",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build" : "electron-builder build --win portable"
+  },
+  "keywords": [],
+  "author": "Milad",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^9.0.2",
+    "electron-builder": "^22.7.0"
+  }
+}
